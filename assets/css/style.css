@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #484450;
+    display: flex;
+    justify-content: center;
+}
+
+.site {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+}
+
+.principal {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    font-family: Arial, Verdana;
+    width: 15%;
+    background-color: #466067;
+    padding: 10px 20px 0;
+    font-size: 14px;
+}
+
+.menu .menu_text {
+    color: red;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color:chocolate;
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.cabecalho {
+    background-color: #c4c8c5;
+}
+
+
+
+.conteudo {
+    background-color: #c4c8c5;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #459a96;
+    min-height: 150px;
+}
